@@ -12,7 +12,7 @@ namespace Line_Comparison
         {
             Console.WriteLine("Welcome to the Line comparison computation program");
             Console.ReadLine();
-            //UC2
+            //UC3
             int x0 = 5, y0 = 7, x1 = 8, y1 = 4;
             Console.WriteLine("Co-ordinates of first line are x0:{0}, y0:{1}, x1:{2}, y2:{3}",x0,y0,x1,y1);
             float lenght1 = Convert.ToInt32(Math.Sqrt(Math.Pow(x1 - x0, 2) + Math.Pow(y1 - y0, 2)));
